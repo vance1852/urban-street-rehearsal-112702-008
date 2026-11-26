@@ -4,5 +4,6 @@ take escort until 1 goto waiting else done
 label waiting
 pause 2..4
 give escort
+goto done
 label done
 finish
