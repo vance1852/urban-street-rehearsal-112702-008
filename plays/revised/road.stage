@@ -1,0 +1,17 @@
+actor road
+label start
+take crossing until 2 goto held else unavailable
+label held
+send trench.asked(1) after 1..2
+receive trench.ready as ready until 1 goto finished else closed
+label finished
+mark crossing on
+give crossing
+finish
+label closed
+mark crossing off
+give crossing
+finish
+label unavailable
+mark crossing off
+finish

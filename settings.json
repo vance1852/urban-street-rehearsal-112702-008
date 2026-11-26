@@ -1,0 +1,22 @@
+{
+  "entry": {
+    "road": "start",
+    "trench": "start",
+    "escort": "start"
+  },
+  "messages": {
+    "road.asked": "int",
+    "trench.ready": "bool"
+  },
+  "capacity": {
+    "escort": 1,
+    "crossing": 1
+  },
+  "bounds": {
+    "seconds": 12,
+    "actions": 80
+  },
+  "start_marks": {
+    "crossing": false
+  }
+}

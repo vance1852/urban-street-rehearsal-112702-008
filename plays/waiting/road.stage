@@ -1,0 +1,5 @@
+actor road
+label start
+receive trench.ready as ready until forever goto done else done
+label done
+finish

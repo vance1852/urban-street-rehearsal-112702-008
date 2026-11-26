@@ -1,0 +1,8 @@
+{"session": "R1", "step": 1, "at": 0, "actor": "road", "label": "start", "action": "take", "resource": "crossing"}
+{"session": "R1", "step": 2, "at": 0, "actor": "escort", "label": "start", "action": "take", "resource": "escort"}
+{"session": "R1", "step": 3, "at": 0, "actor": "road", "label": "held", "action": "send", "delay": 1}
+{"session": "R1", "step": 4, "at": 1, "actor": "trench", "label": "start", "action": "receive"}
+{"session": "R1", "step": 5, "at": 2, "actor": "escort", "label": "waiting", "action": "give", "resource": "escort"}
+{"session": "R1", "step": 6, "at": 2, "actor": "trench", "label": "requested", "action": "take", "resource": "escort"}
+{"session": "R1", "step": 7, "at": 3, "actor": "trench", "label": "reply", "action": "send", "delay": 0}
+{"session": "R1", "step": 8, "at": 3, "actor": "road", "label": "held", "action": "receive"}

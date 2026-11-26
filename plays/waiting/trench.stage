@@ -1,0 +1,5 @@
+actor trench
+label start
+receive road.asked as asked until forever goto done else done
+label done
+finish

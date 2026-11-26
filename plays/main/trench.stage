@@ -1,0 +1,12 @@
+actor trench
+label start
+receive road.asked as asked until 3 goto requested else done
+label requested
+take escort until 2 goto reply else done
+label reply
+pause 1..2
+send road.ready(true) after 0..1
+give escort
+finish
+label done
+finish
